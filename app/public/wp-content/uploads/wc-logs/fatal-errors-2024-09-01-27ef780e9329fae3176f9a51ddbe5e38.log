@@ -1,0 +1,16 @@
+2024-09-01T17:44:04+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(C:\Users\Det-Pc\Local Sites\coffe\app\public/wp-content/uploads\elementor\tmp\): El sistema no puede encontrar la ruta especifica (code: 3) in C:\Users\Det-Pc\Local Sites\coffe\app\public\wp-content\plugins\elementor\core\files\uploads-manager.php:637
+Stack trace:
+#0 C:\Users\Det-Pc\Local Sites\coffe\app\public\wp-content\plugins\elementor\core\files\uploads-manager.php(637): RecursiveDirectoryIterator->__construct('C:\\Users\\Det-Pc...', 4096)
+#1 C:\Users\Det-Pc\Local Sites\coffe\app\public\wp-content\plugins\elementor\core\files\uploads-manager.php(266): Elementor\Core\Files\Uploads_Manager->remove_directory_with_files('C:\\Users\\Det-Pc...')
+#2 C:\Users\Det-Pc\Local Sites\coffe\app\public\wp-content\plugins\elementor\core\upgrade\upgrades.php(39): Elementor\Core\Files\Uploads_Manager->remove_file_or_dir('C:\\Users\\Det-Pc...')
+#3 [internal function]: Elementor\Core\Upgrade\Upgrades::_on_each_version(Object(Elementor\Core\Upgrade\Updater))
+#4 C:\Users\Det-Pc\Local Sites\coffe\app\public\wp-content\plugins\elementor\core\base\background-task.php(274): call_user_func(Array, Object(Elementor\Core\Upgrade\Updater))
+#5 C:\Users\Det-Pc\Local Sites\coffe\app\public\wp-content\plugins\elementor\core\base\background-task.php(178): Elementor\Core\Base\Background_Task->task(Array)
+#6 C:\Users\Det-Pc\Local Sites\coffe\app\public\wp-content\plugins\elementor\core\base\background-process\wp-background-process.php(183): Elementor\Core\Base\Background_Task->handle()
+#7 C:\Users\Det-Pc\Local Sites\coffe\app\public\wp-includes\class-wp-hook.php(324): Elementor\Core\Base\BackgroundProcess\WP_Background_Process->maybe_handle('')
+#8 C:\Users\Det-Pc\Local Sites\coffe\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\Users\Det-Pc\Local Sites\coffe\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\Users\Det-Pc\Local Sites\coffe\app\public\wp-admin\admin-ajax.php(207): do_action('wp_ajax_nopriv_...')
+#11 {main}
+  thrown en C:\Users\Det-Pc\Local Sites\coffe\app\public\wp-content\plugins\elementor\core\files\uploads-manager.php en la línea 637
+

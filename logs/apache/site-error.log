@@ -1,0 +1,12 @@
+[Mon Sep 02 21:44:49.831302 2024] [fcgid:warn] [pid 41972:tid 1316] [client 127.0.0.1:63943] mod_fcgid: read timeout from pipe
+[Mon Sep 02 21:44:49.831302 2024] [core:error] [pid 41972:tid 1316] [client 127.0.0.1:63943] End of script output before headers: index.php
+[Mon Sep 02 21:45:05.554617 2024] [fcgid:warn] [pid 41972:tid 1316] (OS 109)Ha terminado la canalización.  : [client 127.0.0.1:63949] mod_fcgid: get overlap result error, referer: http://tocupboard/wp-admin/
+[Mon Sep 02 21:45:05.556076 2024] [core:error] [pid 41972:tid 1316] [client 127.0.0.1:63949] End of script output before headers: index.php, referer: http://tocupboard/wp-admin/
+[Mon Sep 02 21:45:52.639032 2024] [fcgid:warn] [pid 41212:tid 1380] [client 127.0.0.1:63969] mod_fcgid: read timeout from pipe
+[Mon Sep 02 21:45:52.639032 2024] [core:error] [pid 41212:tid 1380] [client 127.0.0.1:63969] End of script output before headers: wp-cron.php
+[Mon Sep 02 21:45:53.654330 2024] [fcgid:warn] [pid 41212:tid 1376] [client 127.0.0.1:63973] mod_fcgid: read timeout from pipe
+[Mon Sep 02 21:45:53.654330 2024] [core:error] [pid 41212:tid 1376] [client 127.0.0.1:63973] End of script output before headers: wp-cron.php
+[Mon Sep 02 21:45:54.604089 2024] [fcgid:warn] [pid 41212:tid 1372] [client 127.0.0.1:63979] mod_fcgid: read timeout from pipe
+[Mon Sep 02 21:45:54.604089 2024] [core:error] [pid 41212:tid 1372] [client 127.0.0.1:63979] End of script output before headers: wp-cron.php
+[Mon Sep 02 21:46:00.128450 2024] [fcgid:warn] [pid 41212:tid 1368] [client 127.0.0.1:63992] mod_fcgid: read timeout from pipe
+[Mon Sep 02 21:46:00.129424 2024] [core:error] [pid 41212:tid 1368] [client 127.0.0.1:63992] End of script output before headers: index.php
